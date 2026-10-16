@@ -20,8 +20,7 @@ type Props = {
 
 // 在线平台使用统一的纯色圆形文字徽章；Mod 音源取名称首字。
 const badges: Record<string, [string, string]> = {
-    netease: ['云', 'bg-red-500'], kugou: ['K', 'bg-blue-500'],
-    qq: ['Q', 'bg-emerald-500'], bodian: ['波', 'bg-teal-500'],
+    'gd-music': ['GD', 'bg-purple-500'],
 };
 
 const SPRING = { type: 'spring', stiffness: 460, damping: 36, mass: 0.9 } as const;

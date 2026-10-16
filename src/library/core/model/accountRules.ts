@@ -49,7 +49,7 @@ export const resolveActiveProviderId = (
     providers: readonly ProviderAccountSummary[],
     storedProviderId: OnlineProviderId,
 ): OnlineProviderId => (
-    providers.some(provider => provider.providerId === storedProviderId) ? storedProviderId : 'netease'
+    providers.some(provider => provider.providerId === storedProviderId) ? storedProviderId : 'gd-music'
 );
 
 /** 当前平台的摘要；回落后的 id 也找不到（列表里没有网易）时取第一个。 */
